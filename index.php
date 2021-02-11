@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<title> Blu Hire </title>
+	<style>
+	.inp{border-radius:5px;padding:10px;border:none;margin-right:0.5px;width:20%;vertical-align:middle;}
+	.button1 {border-radius:5px;padding:10px;border:none;margin-right:1px;margin-top:2px;width:15%;vertical-align:middle;background-color: #f44338;}
+	</style>
 	<script type="application/javascript">
 		$(document).ready(function(){
 			// Add smooth scrolling to all links in navbar + footer link
@@ -54,10 +58,10 @@
 
      <ul class="nav navbar-nav">
       <li class="active"><a data-toggle="tab" href="#main1">Home</a></li>
-        <li><a data-toggle="tab" href="#recent">Recent Jobs</a></li>
-      <li><a data-toggle="tab" href="#jobseeker">Job Seeker</a></li>
-      <li><a data-toggle="tab" href="#Employer">Employer</a></li>
-      <li><a data-toggle="tab" href="#contact">Contact Us</a></li>
+        <li><a href="#recent">Recent Jobs</a></li>
+      <li><a href="#searchjobs">Job Seeker</a></li>
+      <li><a href="#a1">Employer</a></li>
+      <li><a href="#contactus">Contact Us</a></li>
     </ul>
 
 	<ul class="nav navbar-nav navbar-right">
@@ -116,12 +120,12 @@
         <option value="Mumbai">Mumbai</option>
         <option value="Bangalore">Bangalore</option>
         </select>
-        <button class="btn btn-danger btn-lg" onClick="search();"><span class="glyphicon glyphicon-search"></span> Search</button>
+        <button class="button1" onClick="search();"> Search</button>
 </form>
 </div>
 </div> <!-- jumbotron -->
 <div class="container" id="subcontent" style="background: transparent">
-<button type="button" class="btn btn-primary btn-lg" onClick="location.href='login.php?per=employer'">Employers/Recruiters</button>
+<a name="a1"><button type="button" class="btn btn-primary btn-lg" onClick="location.href='login.php?per=employer'">Employers/Recruiters</button></a>
 
     <!-- div for search contents -->
 </div>
@@ -147,7 +151,8 @@
 <!-- Categories section-->
 <section class="section-three">
 <div class="container">
-<div class="shade-two"><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/shade2.svg"></div>  
+<div class="shade-two"><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/shade2.svg"></div>
+<a name="searchjobs">  
 <h2>Search jobs by categories</h2>  
 <ul class="categories-loop">
 <div class="pattern"><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/pattern.svg"></div> 
@@ -207,7 +212,7 @@
 <em>3320 Jobs</em>
 </a></li>  
 </ul>
-
+</a>
 
 </div>  
 </section>
@@ -406,6 +411,7 @@ Vasai, Mahrarashtra</em></div>
         
 
 <!-- Contact section-->
+<a name="contactus">
   <div class="container bg-grey" id="contact">
         <div class="page-header" style="background: #f4511e"></div>
         <h2 class="text-center">CONTACT US</h2>
@@ -436,6 +442,7 @@ Vasai, Mahrarashtra</em></div>
             </div>
         </div>
     </div> <!-- Contact -->
+    </a>
 </div> <!-- sub content -->
  <div class="page-header" style="background: #f4511e"></div>
  <!-- Container -->

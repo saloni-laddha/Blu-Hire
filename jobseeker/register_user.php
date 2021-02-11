@@ -1,8 +1,9 @@
-  <?php
+<?php
     session_start();
       if(!isset($_SESSION['user_id'])){
         header('location: ../basic_reg.php?msg=first_reg_basic');
       }
+      
    ?>
    <!DOCTYPE HTML>
     <html>
@@ -43,66 +44,58 @@
             </p>
         </div>
 
-    <FORM id="reguser" onsubmit="return checkForm()" METHOD="post" ACTION="process_user.php" enctype="multipart/form-data" class="form-horizontal">
+    <FORM id="reguser" onsubmit="return checkForm()" METHOD="post" ACTION="process_user.php" enctype="multipart/form-data" >
 
 
 
     <div class="page-header"></div>
     <h3 class="h3style">Your Information</h3>
-
-
-
-   <div class="form-group">
-        <label class="control-label col-sm-3" for="name">Mention your Full Name:</label>
-                <div class="col-sm-4">
-                    <input type="text" id="uname" placeholder="Your Name" name="uname" class="form-control"
-                    required onblur="validate('username','nameerror',this.value)">
+    <div >
+    <label for="name">Mention your Full Name:</label>
+    <div>
+    <input type="text" id="uname" placeholder="Your Name" name="uname" 
+                    >
                 </div>
          <label id="nameerror" class="error"></label>
     </div>
+    <div>
+    <label for="address">Address:</label>
+    <div>
+    <input type="text" id="address" placeholder="Building No." name="BuildId"  style="width:100px;" >
+    <input type="text" id="address" placeholder="Street Name" name="StreetId"  style="width:200px;" >
 
-<div class="form-group">
-    <label class="control-label col-sm-3" for="address"> Address: </label>
-        <div class="form-inline col-sm-7">
-               <input type="text" id="address" placeholder="Building No." name="BuildId" class="form-control" style="width:100px;" required onblur="validate('buildno','buildnoerror',this.value)">
-
-                <input type="text" id="address" placeholder="Street Name" name="StreetId" class="form-control" style="width:200px;" required onblur="validate('streetname','streetnameerror',this.value)">
-
-                <input type="number" id="address" placeholder="Pincode" name="Pin" class="form-control" style="width:100px;" required onblur="validate('pinno','pinnoerror',this.value)">
-                <label id="buildnoerror" class="error"></label>
-                <label id="streetnameerror" class="error"></label>
-                <label id="pinnoerror" class="error"></label>
+                <input type="number" id="address" placeholder="Pincode" name="Pin"  style="width:100px;" >
+                <label id="buildnoerror" ></label>
+                <label id="streetnameerror" ></label>
+                <label id="pinnoerror" ></label>
         </div>
+        </div>
+        <div>
+        <label for="mobno">Mobile Number:</label>
+        <div><input type="text" name="mobno" placeholder=" Mobile number" id="mobno" ></div>
+        <label id="mobnoerror" ></label>
+        </div>
+        <div >
+    <label for="Location"> Location: </label>
+        <div  >
+               <input type="text" id="Location" placeholder="Country" name="Country"  style="width:130px;" >
 
-</div>
- <div class="form-group">
-     <label class="control-label col-sm-3" for="mobno">Enter your Mobile number:</label>
-                 <div class="col-sm-3"><input type="text" name="mobno" placeholder=" Mobile number" class="form-control" id="mobno"
-                    required onblur="validate('mobilenum','mobnoerror',this.value)">
-                 </div>
-                  <label id="mobnoerror" class="error"></label>
-      </div>
-<div class="form-group">
-    <label class="control-label col-sm-3" for="Location"> Location: </label>
-        <div class="form-inline col-sm-7" >
-               <input type="text" id="Location" placeholder="Country" name="Country" class="form-control" style="width:130px;" required onblur="validate('country','countryerror',this.value)">
+                <input type="text" id="Location" placeholder="State" name="State"  style="width:130px;" >
 
-                <input type="text" id="Location" placeholder="State" name="State" class="form-control" style="width:130px;" required onblur="validate('state','stateerror',this.value)">
-
-                <input type="text" id="Location" placeholder="City" name="City" class="form-control" style="width:130px;" required onblur="validate('city','cityerror',this.value)">
-                <label id="countryerror" class="error"></label>
-                <label id="stateerror" class="error"></label>
-                <label id="cityerror" class="error"></label>
+                <input type="text" id="Location" placeholder="City" name="City"  style="width:130px;" >
+                <label id="countryerror" ></label>
+                <label id="stateerror" ></label>
+                <label id="cityerror" ></label>
         </div>
 </div>
-<div class="page-header"></div>
-<h3 class="h3style"> Your Current Employment Details </h3>
+<div ></div>
+<h3 > Your Current Employment Details </h3>
 
 
-<div class="form-group">
-    <label for="experience" class="control-label col-sm-4"> How much work experience do you have:</label>
+<div >
+    <label for="experience" > How much work experience do you have:</label>
         <div class="col-sm-4">
-            <select name="experience" class="form-control" id="experience" required>
+            <select name="experience" id="experience" required>
                 <option value="">select </option>
                 <option value="0 yr/Fresher"> Fresher </option>
                 <option value="1-2 yr">1-2 years </option>
@@ -112,22 +105,22 @@
        </div>
 </div>
 
-<div class="form-group">
-    <label class="control-label col-sm-4" for="skills"> What are your Key Skills:</label>
-        <div class="col-sm-4"><input type="text" name="skills" placeholder="Skills" class="form-control" name="skills" id="skills"
-        required onblur="validate('text','skillerror',this.value)">
+<div >
+    <label  for="skills"> What are your Key Skills:</label>
+        <div ><input type="text" name="skills" placeholder="Skills"  name="skills" id="skills"
+        >
         </div>
-        <label id="skillerror" class="error"></label>
+        <label id="skillerror" ></label>
 </div>
 
 
-<div class="page-header"></div>
-<h3 class="h3style"> Your Educational Qualifications </h3>
+<h3 > Your Educational Qualifications </h3>
 
 
-<div class="form-group">
-    <label class="control-label col-sm-3" for="ugcourse"> Your Basic Education: </label>
-     <div class="col-sm-4"> <select name="ugcourse" id="ugcourse" class=" form-control" required>
+
+<div >
+    <label  for="ugcourse"> Your Basic Education: </label>
+     <div > <select name="ugcourse" id="ugcourse" required>
                 <option value="" label="Select">Select</option>
                 <option value="Not Pursuing Graduation"> Not Pursuing Graduation</option>
                 <option value="B.A">B.A</option>
@@ -149,9 +142,9 @@
                 </select>
         </div>
  </div>
- <div class="form-group">
-    <label class="control-label col-sm-3" for="pgcourse"> Your Masters Education:</label>
-        <div class="col-sm-4"> <select name="pgcourse" id="pgcourse"  class="form-control" required>
+ <div >
+    <label  for="pgcourse"> Your Masters Education:</label>
+        <div > <select name="pgcourse" id="pgcourse"   required>
                             <option value="">Select</option>
                             <option value="Not Pursuing Post Graduation"> Not Post Pursuing Graduation</option>
                             <option value="CA">CA</option>
@@ -177,19 +170,19 @@
           </div>
 </div>
 
-<div class="page-header"> </div>
+<div > </div>
 
-        <div class="form-group form-inline col-sm-10">
+        <div >
 
-        <button class="btn btn-success" type="submit"  id="reg" value="submit">Create Profile</button>
-        <label class="col-sm-2"></label>
-        <button class="btn btn-danger" type="reset" id="reset"> Reset </button>
-
+<div style="margin-top:10px; margin-bottom:200px;">
+        <button  type="submit"  id="reg" value="submit">Create Profile</button>
+        <label ></label>
+        <button  type="reset" id="reset"> Reset </button>
 </div>
-
+</div>
+    
     </form>
-
-        <script type="text/javascript" src="../js/validate.js"></script>
+    <script type="text/javascript" src="../js/validate.js"></script>
     <script src="../js/jquery-1.12.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script type="text/javascript">

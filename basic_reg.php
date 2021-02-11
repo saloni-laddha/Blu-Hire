@@ -49,14 +49,14 @@
         <label class="control-label col-sm-2" for="name_user" >Enter your Username:</label>
         <div class="col-sm-4">
              <input type="text" name="name_user" placeholder="Username" class="form-control" id="name_user"
-                        required onblur="validate('username','nameerror',this.value)">
+                        >
         </div>
         <label id="nameerror" class="error" ></label>
     </div>
     <div class="form-group">
     <label for="sex" class="control-label col-sm-2"> Gender</label>
         <div class="col-sm-4">
-            <select name="sex" class="form-control" id="sex" required>
+            <select name="gender" class="form-control" id="sex" required>
                 <option value="m" selected>Male </option>
                 <option value="f">Female</option>
                 <option value="o">Other </option>
@@ -77,7 +77,7 @@
         <label class="control-label col-sm-2" for="email" >Enter your Email ID:</label>
         <div class="col-sm-4">
              <input type="email" name="useremail" placeholder="E-mail" class="form-control" id="email"
-                        required onblur="validate('email','emailerror',this.value)">
+                        >
         </div>
         <label id="emailerror" class="error" ></label>
      </div>
@@ -85,7 +85,7 @@
      <div class="form-group">
         <label class="control-label col-sm-2 " for="passnew" > Create new Password:</label>
         <div class="col-sm-4">  <input type="password" id="passnew" placeholder="New Password" name="pass1" class="form-control"
-                      required onblur="validate('password','passerror',this.value)">
+                      >
         </div>
         <label id="passerror" class="error"></label>
     </div>
@@ -123,6 +123,7 @@
 				var p2=document.getElementById("passconf").value;
 					if (p1 != p2) {
 						document.getElementById("passerror2").innerHTML="Password Donot Match" ;
+						return false;
 					}
 					else
 					{

@@ -207,7 +207,7 @@
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 style="border: none;">
-        <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+        <a href="#headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
          What is Blu Hire?
         </a>
       </h2>
@@ -222,7 +222,7 @@
   <div class="card-active">
     <div class="card-header" id="headingTwo">
       <h2>
-        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <a href="#headingTwo" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
          Who can use Blu Hire?
         </a>
       </h2>
@@ -236,7 +236,7 @@
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2>
-        <a href="#" class="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        <a href="#headingThree" class="" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
          Are there any hidden charges or taxes?
         </a>
       </h2>
@@ -250,7 +250,7 @@
  <div class="card">
     <div class="card-header" id="headingFour">
       <h2>
-        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <a href="#headingFour" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           What makes Blu Hire unique?
         </a>
       </h2>
@@ -264,7 +264,7 @@
    <div class="card">
     <div class="card-header" id="headingFive">
       <h2>
-        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <a href="#headingFive" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
           Who will handle the police verification of the candidates?
         </a>
       </h2>
@@ -278,7 +278,7 @@
        <div class="card">
     <div class="card-header" id="headingSix">
       <h2>
-        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <a href="#headingSix" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
           Who will handle the Employer-Employee contract?
         </a>
       </h2>

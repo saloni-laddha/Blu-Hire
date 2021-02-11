@@ -64,7 +64,7 @@ if(!isset($_SESSION['id'])){
             <div class="form-group">
                 <label for="desig" class="control-label col-sm-2">Job Title/ Designation:</label>
                  <div class="col-sm-4">
-                      <input type="text" class="form-control" name="desig" id="desig" required onblur="validate('text','deser', this.value);">
+                      <input type="text" class="form-control" name="desig" id="desig" ;">
                  </div>
                  <label id="deser" class="error"></label>
             </div>
@@ -73,7 +73,7 @@ if(!isset($_SESSION['id'])){
 
              <div class="form-group">
                 <label for="job_desc" class="control-label col-sm-2">Job Description:</label>
-                  <div class="col-sm-5">  <textarea class="form-control" rows="5" id="job_desc" name="jobdesc" required onblur="validate('longtext','jober',this.value)"></textarea> </div>
+                  <div class="col-sm-5">  <textarea class="form-control" rows="5" id="job_desc" name="jobdesc" ></textarea> </div>
                 <label class="error" id="jober"></label>
             </div>
 
@@ -100,7 +100,7 @@ if(!isset($_SESSION['id'])){
                            <option value="Rs"> Rs </option>
                            <option value="USD"> USD </option>
                            </select>
-                        <input type="text" class="form-control" id="pay" name="pay" required onblur="validate('digit','payer',this.value)">
+                        <input type="text" class="form-control" id="pay" name="pay" >
                    </div>
                    <label class="error" id="payer"></label>
             </div>

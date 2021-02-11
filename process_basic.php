@@ -9,12 +9,12 @@ $type=$_POST['acc_type'];
 $email=$_POST['useremail'];
 //echo $email;
 $password=$_POST['pass1'];
-$hash = password_hash($password, PASSWORD_DEFAULT);
+//$hash = password_hash($password, PASSWORD_DEFAULT);
 //echo $password;
 
 
 
-$query1="INSERT INTO mst_user (name_user,gender,account_type,email,login_pass) VALUES ('$uname','$sex','$type','$email','$hash')";
+$query1="INSERT INTO mst_user (name_user,gender,account_type,email,login_pass) VALUES ('$uname','$sex','$type','$email','$password')";
 
 $result1 = mysqli_query($db1,$query1) ;
 

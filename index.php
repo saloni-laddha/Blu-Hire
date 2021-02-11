@@ -57,8 +57,7 @@
       </div>
 
      <ul class="nav navbar-nav">
-      <li class="active"><a data-toggle="tab" href="#main1">Home</a></li>
-        <li><a href="#recent">Recent Jobs</a></li>
+      
       <li><a href="#searchjobs">Job Seeker</a></li>
       <li><a href="#a1">Employer</a></li>
       <li><a href="#contactus">Contact Us</a></li>
@@ -79,6 +78,7 @@
 </nav>
     <!--- -------------------------------------------------------------------------------------------------- -->
     <body id="indexbody" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <a name="a1">
 <div class="bmsTop">
 	 <ul>
         <li style="font-size: 18px; font-weight: bold">Top Recruiters:</li>
@@ -98,6 +98,7 @@
         </li>
     </ul>
 </div>
+</a>
 
 <div class="container-fluid" id="main1"> <!-- jumbotron fluid -->
 <div class="jumbotron text-center" id="searchjum">
@@ -124,28 +125,6 @@
 </form>
 </div>
 </div> <!-- jumbotron -->
-<div class="container" id="subcontent" style="background: transparent">
-<a name="a1"><button type="button" class="btn btn-primary btn-lg" onClick="location.href='login.php?per=employer'">Employers/Recruiters</button></a>
-
-    <!-- div for search contents -->
-</div>
-
-<h2>Featured Jobs</h2>
-<div class="container featured">
-<div>
-<ul style="margin:0;padding:0;list-style-type:none;">
-<?php while($row=mysqli_fetch_array($result)){ ?>
-    <li style="width:90%;margin:0 auto 10px;padding:5px;border:none;clear:both;height:50px;background-color:white;">
-      <span style="float:left;font-weight:bold;padding:3px;font-size:18px;"><?php echo $row['jobname']?></span>
-      <span  style="float:left;padding:3px;color:red;font-size:18px;"><?php echo $row['salaryoffered']?> P.A.</span>
-      <button class="btn btn-success" onClick="location.href='login.php?per=jobseeker'" style="float:right;">Apply Now</button>
-    </li>
-<?php }   ?>
-</ul>
-</div>
-<button type="button" class="btn btn-primary btn-lg featured-seemore"  onClick="location.href='jobs.php'">See more</button>
-</div>
-</div>
 
 
 <!-- Categories section-->

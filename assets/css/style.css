@@ -124,6 +124,7 @@ img { max-width: 100%; }
   background: url(../image/faq-pattern.svg) center bottom no-repeat;
   border-bottom: solid 1px #EBEBEB;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .card {

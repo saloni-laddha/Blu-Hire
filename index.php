@@ -12,6 +12,20 @@
 		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<title> Blu Hire </title>
 	<style>
+<<<<<<< HEAD
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #78d5c2;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(26, 188, 156);
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
+=======
 	.grid-container {
   display: grid;
   grid-template-columns: auto auto ;
@@ -23,6 +37,7 @@
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
+>>>>>>> origin
   text-align: center;
 }
 	.inp{border-radius:5px;padding:10px;border:none;margin-right:0.5px;width:20%;vertical-align:middle;}
@@ -138,11 +153,57 @@
 </form>
 </div>
 </div> <!-- jumbotron -->
-
+<br>
 
 <!-- Categories section-->
 <section class="section-three">
 <div class="container">
+<<<<<<< HEAD
+<h2 id="sectionthreee" style="text-align:center; font-weight:bold">Search jobs by categories</h2>  
+<br>
+
+
+<div class="grid-container">
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/cook-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/cook.svg"></i>  <br>
+<span style="color:#ffffff">Cook Jobs</span>
+<em style= color:#ffffff>20660 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/sales-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/sales.svg"></i>  <br>
+<span style= color:#ffffff>Sales Jobs</span>
+<em style= color:#ffffff>16420 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/delivery-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/delivery.svg"></i>  <br>
+<span style= color:#ffffff>Delivery Jobs</span>
+<em style= color:#ffffff>9970 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/driver-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/driver.svg"></i>  <br>
+<span style= color:#ffffff>Driver Jobs</span>
+<em style= color:#ffffff>9595 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/tailoring-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/tailoring.svg"></i>  <br>  
+<span style= color:#ffffff>Tailoring Jobs</span>
+<em style= color:#ffffff>9050 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/accountant-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/accountant.svg"></i>  <br>  
+<span style= color:#ffffff>Accountant Jobs</span>
+<em style= color:#ffffff>8520 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/beautician-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/beautician.svg"></i>  <br>
+<span style= color:#ffffff>Beautician Jobs</span>
+<em style= color:#ffffff>7040 Jobs</em>
+</a></div>
+  <div class="grid-item"><a href="https://www.just.jobs/search/c/receptionist-jobs-in-delhi">
+<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/receptionist.svg"></i>  <br>
+<span style= color:#ffffff>Receptionist Jobs</span>
+<em style= color:#ffffff>3450 Jobs</em>
+=======
 <div class="shade-two"><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/shade2.svg"></div>
 <h2 id="sectionthreee" style="text-align:center;">Search jobs by categories</h2>  
 <div class="grid-container">
@@ -185,6 +246,7 @@
 <i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/receptionist.svg"></i>  <br>
 <span>Receptionist Jobs</span>
 <em>3450 Jobs</em>
+>>>>>>> origin
 </a></div>
 
 
@@ -196,7 +258,7 @@
 <section class="section-seven">
 <div class="container">
 <div class="row">
-<div class="col-md-10 mx-auto">
+<div class="col-md-12 mx-auto">
 <h2>Frequently asked questions</h2>
 <div class="accordion faq-list" id="accordionExample">
   <div class="card">
@@ -224,7 +286,7 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="">
       <div class="card-body">
-       Small businesses, startups and other businesses looking to hire office staff, cooks, drivers, delivery executives, and other blue-collar workers can post their job on Just Jobs.
+       Small businesses, startups and other businesses looking to hire office staff, cooks, drivers, delivery executives, and other blue-collar workers can post their job on Blu Hire.
       </div>
     </div>
   </div>
@@ -309,8 +371,8 @@
   Good site to hire blue collar staff.
 </p>  
 <i><img src="images/star-one.svg"></i>
-<div><span><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/yougesh.png"></span>
-<em><strong>A.B. Singh</strong>
+<div><span><img src="images/reviewer3.png"></span>
+<em><strong>A.B. Chandel</strong>
 HR Manager, Noida</em></div>
 </div>
             </div>
@@ -320,7 +382,7 @@ HR Manager, Noida</em></div>
 <p>Extremely happy with the Blu Hire's service. I was working in an export (clothing) factory as a Tailor but due to Covid 19, they asked me to leave immediately. 
   I saw an ad for it on FB & find a new job in a couple of days. It's easy & free!</p>  
 <i><img src="images/star.svg"></i>
-<div><span><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/arif.png"></span>
+<div><span><img src="images/reviewer4.png"></span>
 <em><strong>Atif Ali</strong>
 Ladies Tailor, Pune</em></div>
 </div> 
@@ -330,8 +392,8 @@ Ladies Tailor, Pune</em></div>
 <i><img src="images/coma.svg"></i>
 <p>Hired our new office boy after some local references through the portal. Very easy and convenient.</p>  
 <i><img src="images/star-one.svg"></i>
-<div><span><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/karthik.png"></span>
-<em><strong>Karthik Kumar</strong>
+<div><span><img src="images/reviewer1.png"></span>
+<em><strong>Avinash Rawat</strong>
 Udaipur, Rajasthan</em></div>
 </div>
             </div>
@@ -341,8 +403,8 @@ Udaipur, Rajasthan</em></div>
 <p>Main travel agency me Driver tha, par achanak mujhe job chhorni padi aur baad me mujhe ek sahi job nahi mil rahi thi, tab mujhe Blu Hire ke bare me pata chala... Inhone mujhe jaldi hi mere area me ek job dilwa di, thank you Blu Hire!
 </p>  
 <i><img src="images/star.svg"></i>
-<div><span><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/prakash.png"></span>
-<em><strong>Prakash Kadam</strong>
+<div><span><img src="images/reviewer2.png"></span>
+<em><strong>Kishan Choudhary</strong>
 Vasai, Mahrarashtra</em></div>
 </div> 
             </div>

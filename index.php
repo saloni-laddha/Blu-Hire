@@ -122,20 +122,21 @@
         <input type="text" class="form-control" size="60" placeholder="Enter your keyword"  name="keyword" id="keyword">
         <!--<button type="button" onclick="search()" class="btn btn-lg " style="color: black"><span class="glyphicon glyphicon-search"></span> Search</button>-->
     </form>
+    <br>
     <form id="form" action="javascript:void(0);">
-        <select class="inp">
+        <select class="inp" style="color:black; width:auto;">
         <option value="" disabled selected >Job type</option>
         <option value="Full-Time">Full-Time</option>
         <option value="Internship">Part-Time</option>
         <option value="Fresher">Fresher</option>
         </select>
-        <select class="inp">
+        <select class="inp" style="color:black; width:auto;">
         <option value="" disabled selected>City</option>
         <option value="Delhi">Delhi</option>
         <option value="Mumbai">Mumbai</option>
         <option value="Bangalore">Bangalore</option>
         </select>
-        <button class="button1" onClick="search();"> Search</button>
+        <button class="button1" onClick="search()" style="width:auto"><span class="glyphicon glyphicon-search"></span> Search</button>
 </form>
 </div>
 </div> <!-- jumbotron -->

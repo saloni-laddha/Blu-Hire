@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<title> Blu Hire </title>
 	<style>
-<<<<<<< HEAD
   .grid-container {
   display: grid;
   grid-template-columns: auto auto ;
@@ -25,19 +24,6 @@
   border-radius: 15px;
   padding: 20px;
   font-size: 20px;
-=======
-	.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
->>>>>>> origin
   text-align: center;
 }
 	.inp{border-radius:5px;padding:10px;border:none;margin-right:0.5px;width:20%;vertical-align:middle;}
@@ -158,7 +144,6 @@
 <!-- Categories section-->
 <section class="section-three">
 <div class="container">
-<<<<<<< HEAD
 <h2 id="sectionthreee" style="text-align:center; font-weight:bold">Search jobs by categories</h2>  
 <br>
 
@@ -203,50 +188,6 @@
 <i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/receptionist.svg"></i>  <br>
 <span style= color:#ffffff>Receptionist Jobs</span>
 <em style= color:#ffffff>3450 Jobs</em>
-=======
-<div class="shade-two"><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/shade2.svg"></div>
-<h2 id="sectionthreee" style="text-align:center;">Search jobs by categories</h2>  
-<div class="grid-container">
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/cook-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/cook.svg"></i>  <br>
-<span>Cook Jobs</span>
-<em>20660 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/sales-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/sales.svg"></i>  <br>
-<span>Sales Jobs</span>
-<em>16420 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/delivery-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/delivery.svg"></i>  <br>
-<span>Delivery Jobs</span>
-<em>9970 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/driver-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/driver.svg"></i>  <br>
-<span>Driver Jobs</span>
-<em>9595 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/tailoring-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/tailoring.svg"></i>  <br>
-<span>Tailoring Jobs</span>
-<em>9050 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/accountant-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/accountant.svg"></i>  <br>
-<span>Accountant Jobs</span>
-<em>8520 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/beautician-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/beautician.svg"></i>  <br>
-<span>Beautician Jobs</span>
-<em>7040 Jobs</em>
-</a></div>
-  <div class="grid-item"><a href="https://www.just.jobs/search/c/receptionist-jobs-in-delhi">
-<i><img src="https://www.just.jobs/wp-content/themes/justjobs/new-home-page/image/receptionist.svg"></i>  <br>
-<span>Receptionist Jobs</span>
-<em>3450 Jobs</em>
->>>>>>> origin
 </a></div>
 
 
